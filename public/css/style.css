@@ -6,7 +6,7 @@
 
 html,
 body {
-  scroll-behavior: smooth;/* ao rodar a tela pra cima ou para baixo será mais suave */
+  scroll-behavior: smooth;/* essa propriedade não tem efeito na dolagem do scrouç manual pelo usuário, mas pelo um clik de um link que redireciona para outra parte da mesma página */
   height: 100vh;
   width: 100%;
 }
@@ -42,5 +42,15 @@ nav {
     color: rgb(242, 235, 44);/* cor de transação */
   }
 
-  
+  header section  {
+    display: flex;
+    align-items: center;/* alinhamento dos itens */
+    justify-content:space-evenly;/* espaço entre os itens */
+  }
+
+header section img{
+margin: 4rem;/* dá um espaço do objeto ao topo */
+height: 10rem;/* diminuímos a imagem */
+}
+
 
