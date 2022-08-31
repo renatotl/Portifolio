@@ -69,13 +69,25 @@ height: 10rem;/* diminuímos a imagem */
 }
 
 .container{
-width: 70%;
+width: 30%;
 min-width: 250px;
 display:flex;
 vertical-align: top;
 }
 
-section div img{
+ div img{
   margin: 4rem;/* dá um espaço do objeto ao topo */
   height: 10rem;/* diminuímos a imagem */
+  
+  }
+
+
+
+  
+  footer{
+    background-color: rgb(112, 112, 220);/* cor do background */
+    width: 100%;/* pegango a largura da tela */
+    padding: 3rem 0rem 3rem 0rem; /* tamanho do footer */
+    /* position: fixed;fixa o elemento  */
+    bottom: 0;/* colocando o rodapé em baixo */
   }
