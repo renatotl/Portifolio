@@ -61,14 +61,19 @@ height: 10rem;/* diminuímos a imagem */
   color: rgb(112, 112, 220)
 }
 
-#h2{
+#sobreMim{
   padding: 2rem;
 }
 
+#tecnologias{
+  padding: 2rem;
+}
 #p1{
   padding: 2rem;
 }
-
+#projetos{
+  padding: 2rem;
+}
 .container{
 
 min-width: 250px;
@@ -78,7 +83,10 @@ display:flex;
 .container div{
   width: 50%;
 }
-
+.container3{
+  min-width: 250px;
+display:flex;
+}
  div img{
   margin: 4rem;/* dá um espaço do objeto ao topo */
   height: 10rem;/* diminuímos a imagem */
@@ -95,6 +103,10 @@ display:flex;
 display:flex;
 }
   
+.video{
+  width: 27%;
+padding:2rem;
+}
   footer{
     color: rgb(247, 247, 249);/* cor do texto*/
     background-color: rgb(112, 112, 220);/* cor do background */
