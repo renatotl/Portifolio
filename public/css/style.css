@@ -33,7 +33,7 @@ nav {
   nav ul li a {/*acessando a tag "a" */
     text-decoration: none;/* removendo sublinhado do link */
     color: rgb(247, 247, 249);/* cor do texto*/
-    font-weight: bold;
+    font-weight: bold;/* deixamos a letra mais grossa*/
     font-size: 1.2rem;/* tamanho da fonte */
     transition: 0.5s;/* tempo de mudnaça da cor */
   }
@@ -50,6 +50,7 @@ height: 35%;
     align-items: center;/* alinhamento dos itens */
     justify-content:space-evenly;/* espaço entre os itens */
   }
+
 
 header section img{
 margin: 4rem;/* dá um espaço do objeto ao topo */
@@ -69,10 +70,13 @@ height: 10rem;/* diminuímos a imagem */
 }
 
 .container{
-width: 30%;
+
 min-width: 250px;
 display:flex;
-vertical-align: top;
+/* vertical-align: top; */
+}
+.container div{
+  width: 50%;
 }
 
  div img{
@@ -81,13 +85,29 @@ vertical-align: top;
   
   }
 
+.img {
+  margin: 1rem;/* dá um espaço do objeto ao topo */
+  height: 5rem;/* diminuímos a imagem */
+  
+}
 
-
+#conteiner2{
+display:flex;
+}
   
   footer{
+    color: rgb(247, 247, 249);/* cor do texto*/
     background-color: rgb(112, 112, 220);/* cor do background */
     width: 100%;/* pegango a largura da tela */
     padding: 3rem 0rem 3rem 0rem; /* tamanho do footer */
     /* position: fixed;fixa o elemento  */
     bottom: 0;/* colocando o rodapé em baixo */
+    
   }
+
+ footer p{
+  font-weight: bold;/* deixamos a letra mais grossa*/
+  align-items: center;
+  justify-content:space-evenly;
+  text-align: center; /*centralizamos*/
+ }
